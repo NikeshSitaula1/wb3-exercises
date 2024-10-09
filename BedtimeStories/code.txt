@@ -1,0 +1,24 @@
+Learning to code, I thought it'd be neat,
+But my brain's a tangle of loops on repeat.
+I typed "Hello, World!" with a grin so wide,
+But a syntax error said, "You’ve already died."
+
+Variables, functions, what do they mean?
+I swear my code’s haunted, it’s stuck in a dream.
+"Just debug it," they say, with a casual shrug,
+But it’s like chasing down a digital bug!
+
+I Googled my issue, found Stack Overflow,
+Now my brain’s overflowing—what do they know?
+Indentation’s a mess, my brackets don’t match,
+Is this Python, or a secret hacker's dispatch?
+
+I hit "Run" again, praying for a break,
+But my laptop just laughed, "You've made a mistake."
+Code compiles fine, I cheer with glee,
+Until it outputs… infinity?
+
+One day I'll master this digital craft,
+But for now, I'll just nervously laugh.
+Because coding's a journey, with twists and a fall,
+Where every semicolon’s a cliff—so tall!
