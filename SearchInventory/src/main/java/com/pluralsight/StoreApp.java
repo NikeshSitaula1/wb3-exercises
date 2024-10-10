@@ -17,11 +17,11 @@ public class StoreApp {
             try{
                 System.out.println("What do you want to do?");
                 System.out.println("1- List all products");
-                System.out.println("2- Lookup a product by its id\n");
-                System.out.println("3- Find all products within a price range\n");
-                System.out.println("4- Add a new product\n");
-                System.out.println("5- Quit the application\n");
-                System.out.println("Enter command: ");
+                System.out.println("2- Lookup a product by its id");
+                System.out.println("3- Find all products within a price range");
+                System.out.println("4- Add a new product");
+                System.out.println("5- Quit the application");
+                System.out.print("Enter command: ");
 
                 byte selection = Console.PromptForByte();
 
@@ -53,8 +53,8 @@ public class StoreApp {
             Product p = inventory.get(i);
             System.out.printf("id: %d %s - Price: $%.2f\n",
                     p.getId(), p.getName(), p.getPrice());
-        }
 
+        }
     }
 
     public static void LookUpProductById(){
@@ -87,13 +87,14 @@ public class StoreApp {
             if(i.getPrice() >= minPrice && i.getPrice() <= maxPrice){
                 System.out.printf("id: %d %s - Price: $%.2f\n",
                         i.getId(), i.getName(), i.getPrice());
-                break;
+                return;
             }
             else{
                 System.out.println("No products available at this price range");
+                return;
             }
-        }
 
+        }
     }
 
     public static void AddNewProduct(){
